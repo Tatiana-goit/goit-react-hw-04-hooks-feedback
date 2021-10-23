@@ -1,0 +1,14 @@
+.button {
+  width: 120px;
+  margin: 10px 20px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px rgb(0 0 0 / 50%);
+}
+
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+  background-color: rgb(211, 202, 209);
+}
