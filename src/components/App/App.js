@@ -11,6 +11,9 @@ class App extends Component {
     bad: 0,
   };
 
+
+  
+
   leaveFeedback = e => {
     this.setState(prevState => {
       return {
