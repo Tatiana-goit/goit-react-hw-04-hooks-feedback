@@ -19,7 +19,7 @@ export default function App() {
         return setGood(state => state + 1);
       case 'neutral':
         return setNeutral(state => state + 1);
-      case 'goobadd':
+      case 'bad':
         return setBad(state => state + 1);
 
       default:
